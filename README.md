@@ -36,5 +36,10 @@ This repository contains the projects for the "7 SaaS in 7 Days" challenge. The 
 *   **Description:** A tool for micro-influencers to find niche-specific hashtags.
 *   **Code:** [day-05-hashtag-curator](./day-05-hashtag-curator/)
 
-### Day 6: (To be determined)
+### Day 6: Brief Criativo Ultra-Rápido para Fotógrafas Newborn
+*   **Status:** ✅ Completed
+*   **Description:** A simple form to collect creative briefing information from clients for newborn photography sessions.
+*   **Code:** [day-06-newborn-briefing-form](./day-06-newborn-briefing-form/)
+*   **Note:** This project uses a placeholder Formspree URL. To use it, you'll need to create your own Formspree form and replace the placeholder URL in `index.html`.
+
 ### Day 7: (To be determined)
