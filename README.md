@@ -31,6 +31,10 @@ This repository contains the projects for the "7 SaaS in 7 Days" challenge. The 
 *   **Description:** A tool to clean up messy HTML formatting from text copied from editors like Google Docs or Word.
 *   **Code:** [day-04-clean-paste-formatter](./day-04-clean-paste-formatter/)
 
-### Day 5: (To be determined)
+### Day 5: Curador de Hashtags Premium para Microinfluenciadores
+*   **Status:** ✅ Completed
+*   **Description:** A tool for micro-influencers to find niche-specific hashtags.
+*   **Code:** [day-05-hashtag-curator](./day-05-hashtag-curator/)
+
 ### Day 6: (To be determined)
 ### Day 7: (To be determined)
