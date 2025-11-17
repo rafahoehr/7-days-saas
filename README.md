@@ -26,7 +26,11 @@ This repository contains the projects for the "7 SaaS in 7 Days" challenge. The 
 *   **Description:** A tool for video editors to quickly generate a budget based on video length, animation complexity, and urgency.
 *   **Code:** [day-03-video-editor-budget-generator](./day-03-video-editor-budget-generator/)
 
-### Day 4: (To be determined)
+### Day 4: Limpador de Formatação (Clean Paste Formatter)
+*   **Status:** ✅ Completed
+*   **Description:** A tool to clean up messy HTML formatting from text copied from editors like Google Docs or Word.
+*   **Code:** [day-04-clean-paste-formatter](./day-04-clean-paste-formatter/)
+
 ### Day 5: (To be determined)
 ### Day 6: (To be determined)
 ### Day 7: (To be determined)
