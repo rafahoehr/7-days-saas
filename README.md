@@ -42,4 +42,8 @@ This repository contains the projects for the "7 SaaS in 7 Days" challenge. The 
 *   **Code:** [day-06-newborn-briefing-form](./day-06-newborn-briefing-form/)
 *   **Note:** This project uses a placeholder Formspree URL. To use it, you'll need to create your own Formspree form and replace the placeholder URL in `index.html`.
 
-### Day 7: (To be determined)
+### Day 7: Gerador de Pautas para Social Media de Restaurantes
+*   **Status:** ✅ Completed
+*   **Description:** A tool that generates social media content ideas for restaurants based on their menu.
+*   **Code:** [day-07-restaurant-content-generator](./day-07-restaurant-content-generator/)
+*   **Note:** This project uses a mocked serverless function. To use it, you'll need to create your own serverless function that takes the menu content and uses an LLM API to generate content ideas.
