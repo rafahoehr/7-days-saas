@@ -21,7 +21,11 @@ This repository contains the projects for the "7 SaaS in 7 Days" challenge. The 
 *   **Description:** A tool for freelancers to generate polite and effective billing reminder messages.
 *   **Code:** [day-02-billing-message-generator](./day-02-billing-message-generator/)
 
-### Day 3: (To be determined)
+### Day 3: Gerador de Orçamento Express para Editoras de Vídeo
+*   **Status:** ✅ Completed
+*   **Description:** A tool for video editors to quickly generate a budget based on video length, animation complexity, and urgency.
+*   **Code:** [day-03-video-editor-budget-generator](./day-03-video-editor-budget-generator/)
+
 ### Day 4: (To be determined)
 ### Day 5: (To be determined)
 ### Day 6: (To be determined)
