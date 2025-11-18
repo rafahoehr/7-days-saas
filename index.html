@@ -1,49 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orçador de Serviços para Personal Trainers Online</title>
+    <title>Kitly - Ferramentas para Empreendedores</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 flex items-center justify-center h-screen">
-    <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
-        <h1 class="text-2xl font-bold text-center mb-6">Orçador de Serviços</h1>
-        <div class="mb-4">
-            <label for="treinos_semanais" class="block text-gray-700">Treinos por Semana</label>
-            <input type="number" id="treinos_semanais" class="w-full px-3 py-2 border rounded-lg" value="3">
-        </div>
-        <div class="mb-4">
-            <label for="duracao_semanas" class="block text-gray-700">Duração (semanas)</label>
-            <input type="number" id="duracao_semanas" class="w-full px-3 py-2 border rounded-lg" value="4">
-        </div>
-        <div class="mb-4 flex items-center">
-            <input type="checkbox" id="acompanhamento" class="mr-2">
-            <label for="acompanhamento" class="text-gray-700">Acompanhamento Nutricional</label>
-        </div>
-        <button id="calculateBtn" class="w-full bg-blue-500 text-white py-2 rounded-lg">Calcular e Copiar</button>
-        <p id="result" class="text-center mt-4 font-bold"></p>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-12">
+        <header class="text-center mb-12">
+            <h1 class="text-5xl font-bold text-gray-800">Kitly.com.br</h1>
+            <p class="text-xl text-gray-600 mt-2">Ferramentas simples para o dia a dia de microempreendedores.</p>
+        </header>
+
+        <main>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Ferramenta 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h2 class="text-2xl font-bold mb-2">Orçador para Personal Trainers</h2>
+                    <p class="text-gray-700 mb-4">Calcule pacotes de treino de forma rápida e copie a mensagem para o WhatsApp.</p>
+                    <a href="/orcador-personal-trainer/" class="font-bold text-blue-500 hover:text-blue-700">Acessar Ferramenta &rarr;</a>
+                </div>
+
+                <!-- Ferramenta 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h2 class="text-2xl font-bold mb-2">Gerador de Mensagem de Cobrança</h2>
+                    <p class="text-gray-700 mb-4">Crie mensagens de cobrança em diferentes tons: formal, amigável ou firme.</p>
+                    <a href="/gerador-mensagem-cobranca/" class="font-bold text-blue-500 hover:text-blue-700">Acessar Ferramenta &rarr;</a>
+                </div>
+
+                <!-- Ferramenta 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h2 class="text-2xl font-bold mb-2">Orçador para Editores de Vídeo</h2>
+                    <p class="text-gray-700 mb-4">Calcule orçamentos de edição de vídeo com base em duração, complexidade e urgência.</p>
+                    <a href="/orcador-edicao-video/" class="font-bold text-blue-500 hover:text-blue-700">Acessar Ferramenta &rarr;</a>
+                </div>
+
+                <!-- Ferramenta 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h2 class="text-2xl font-bold mb-2">Limpador de Formatação</h2>
+                    <p class="text-gray-700 mb-4">Remova formatação indesejada de textos copiados do Word, Docs, etc.</p>
+                    <a href="/limpador-formatacao/" class="font-bold text-blue-500 hover:text-blue-700">Acessar Ferramenta &rarr;</a>
+                </div>
+
+                <!-- Ferramenta 5 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h2 class="text-2xl font-bold mb-2">Curador de Hashtags</h2>
+                    <p class="text-gray-700 mb-4">Encontre hashtags específicas para o seu nicho de microinfluenciador.</p>
+                    <a href="/curador-hashtags/" class="font-bold text-blue-500 hover:text-blue-700">Acessar Ferramenta &rarr;</a>
+                </div>
+
+                <!-- Ferramenta 6 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h2 class="text-2xl font-bold mb-2">Briefing para Fotografia Newborn</h2>
+                    <p class="text-gray-700 mb-4">Colete informações importantes dos seus clientes de forma estruturada.</p>
+                    <a href="/briefing-fotografia-newborn/" class="font-bold text-blue-500 hover:text-blue-700">Acessar Ferramenta &rarr;</a>
+                </div>
+
+                <!-- Ferramenta 7 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h2 class="text-2xl font-bold mb-2">Gerador de Conteúdo para Restaurantes</h2>
+                    <p class="text-gray-700 mb-4">Gere pautas para redes sociais a partir do cardápio do seu restaurante.</p>
+                    <a href="/gerador-conteudo-restaurantes/" class="font-bold text-blue-500 hover:text-blue-700">Acessar Ferramenta &rarr;</a>
+                </div>
+            </div>
+        </main>
+
+        <footer class="text-center mt-12">
+            <p class="text-gray-600">&copy; 2025 Kitly.com.br - Desafio 7 SaaS em 7 Dias</p>
+        </footer>
     </div>
-
-    <script>
-        const calculateBtn = document.getElementById('calculateBtn');
-        const resultEl = document.getElementById('result');
-
-        const valor_base = 50;
-        const taxa_extra = 100;
-
-        calculateBtn.addEventListener('click', () => {
-            const treinos_semanais = document.getElementById('treinos_semanais').value;
-            const duracao_semanas = document.getElementById('duracao_semanas').value;
-            const acompanhamento = document.getElementById('acompanhamento').checked;
-
-            const preco = (treinos_semanais * valor_base) * duracao_semanas + (acompanhamento ? taxa_extra : 0);
-
-            const finalMessage = `O valor do seu plano é de R$${preco.toFixed(2)}`;
-            resultEl.innerText = finalMessage;
-
-            navigator.clipboard.writeText(finalMessage);
-        });
-    </script>
 </body>
 </html>
